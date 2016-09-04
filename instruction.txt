@@ -1,0 +1,11 @@
+create new user with...
+username:ttt
+password:ttt
+host:localhost
+
+
+import subscription.sql
+
+type into the browser
+
+localhost/foldername/index.php

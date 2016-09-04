@@ -1,0 +1,127 @@
+		body {
+                background:#C9C6C6;
+			}
+.heading {
+	color: #F90;
+	font-family: Edwardian Script ITC;
+	font-size:40px;
+}
+.options {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 16px;
+	font-style: oblique;
+	color: #F93;
+}
+.heading1 {
+	color: #FFF5EE;
+	font-family: "new century schoolbook";
+}
+.heading2 {
+	color: #000080;
+	font-family:
+}
+#menu {
+	position: relative; 
+	right:18%;
+	top:40%;
+    font-size: 20px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: right;
+	text-transform:uppercase;
+	background-repeat: no-repeat;
+    background-position: center top; 
+	
+}
+#menu ul {
+    height: 10%;
+    padding: 0px 4px 0px 4px;
+    margin: 6px;
+	color:#ECF0F9;
+}
+#menu li { 
+	display: inline; 
+	padding: 10px; 
+}
+#menu a {
+    text-decoration: none;
+    color: #ECF0F9;
+    padding: 2px 4px 4px 4px;
+}
+#menu li a:hover { 
+	color:#00c6ff;
+}
+
+#menu li.animation { 
+	-moz-transition: all 0.4s ease-in-out; 
+	-moz-transform:translateX(0px); 
+	-o-transition: all 0.4s ease-in-out; 
+	-o-transform:translateX(0px); 
+	-webkit-transition: all 0.4s ease-in-out; 
+	-webkit-transform:translateX(0px); 
+}
+
+#menu li.animation:hover { 
+	-moz-transform:translateX(25px);
+	-o-transform:translateX(25px);
+	-webkit-transform:translateX(25px);
+}
+.footer{
+	color:#ECF0F9;
+	background-color:#097687;
+	width:100%;
+	position: relative; 
+	font-size: 20px;
+	table-layout: fixed;
+	top:10px;
+	height:100px;	
+	margin-top:-70px;
+}
+.contact{
+	margin-left: 10px;
+	margin-right: 20px;
+    padding-left: 2em;
+	padding-right:3em;
+}
+.field {
+  margin: 1em 0;
+  width:60%;
+}
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 0.5em 0.5em;
+  font-size: 1.2em;
+  border-radius: 3px;
+  border: 1px solid #D9D9D9;
+}
+#page-wrapper {
+  width: 640px;
+  background: #FFFFFF;
+  padding: 1em;
+  margin: 1em auto;
+  border-top: 5px solid #69c773;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+.button{
+            min-width:60px;
+            height: 40px;
+            line-height: 40px;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #222;
+            border-radius: 4px;
+
+        }
+
+.button:hover{
+            background-color: #0000FF;
+}
+#row{
+			text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            color: #FF4000;
+}
